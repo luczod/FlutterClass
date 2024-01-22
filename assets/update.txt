@@ -1,0 +1,19 @@
+class CityScreen extends StatefulWidget {
+
+  const CityScreen({super.key});
+
+  @override
+  State<CityScreen> createState() => _CityScreenState();
+}
+
+onPressed: () {
+  Navigator.of(context).push(
+    MaterialPageRoute(
+      builder: (context) => const SongScreen(song: song),
+    ),
+  );
+},
+
+raisedButton -> ElevatedButton
+
+FlatButton -> TextButton

@@ -1,0 +1,27 @@
+playground Dart https://dartpad.dev/
+void main() {
+  var hello = 'hello word';
+
+  print(hello);
+}
+
+void main() {
+  var a; // any type
+  dynamic b; // any type
+
+  a = 15
+  print(a); // 15
+  a = 'abc';
+  print(a); // 'abc'
+}
+
+void main() {
+  String a; // only string
+  int b; // only int
+
+  a = 15; // Error
+  a = 'abc';
+  print(a); // abc
+}
+
+shortcut stful // StateFull class

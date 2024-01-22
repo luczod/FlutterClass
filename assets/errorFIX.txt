@@ -1,0 +1,18 @@
+Multidex issue with Flutter
+
+app/src/main/AndroidManifest.xml
+<uses-permission android:name="android.permission.INTERNET" />
+
+[project_folder]/app/build.gradle
+
+defaultConfig {
+    ...
+
+    multiDexEnabled true
+}
+
+dependencies {
+    ...
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+}

@@ -1,0 +1,26 @@
+https://dartpad.dev/
+
+void main() {
+  int result = addNum(4,5);
+  print(result);
+
+  greet('how do you do','jackie');
+  greet(greeting:'how do you do', person:'jackie');
+}
+
+int addNum(int b, int a){
+  return b * a;
+}
+
+// arrow function
+int addNum(int b, int a) => b * a;
+
+void greet(String person, String greeting){
+ print('$person $greeting');
+}
+
+void greet({String person = '', String greeting = ''}){
+ print('$person $greeting');
+}
+
+

@@ -1,0 +1,14 @@
+class Human {
+   double height;
+   double weight;
+
+   Human(this.height,this.weight);
+
+//  Human(Double height){
+//    this.height = height;
+//  }
+
+  void show(){
+    print(height);
+  }
+}
